@@ -1,0 +1,35 @@
+.rdg-expertise-category { float: left; min-height: 170px; width: 90%; display:flex;flex-direction:column; padding-bottom: 40px;}
+.rdg-expertise-category span { margin-top:auto; font-size: 18px; font-weight: bold; }
+
+.rdg-expertise-description { min-height: 170px; display:flex;flex-direction:column; padding-bottom: 20px; width: 300px;}
+.rdg-expertise-description span { margin-top:auto; }
+
+.rdg-expertise-bar { margin: auto; height: 0; width: 0; overflow: hidden; }
+
+
+@keyframes rdg-expertise-bar-animation-keyframe {
+   0%   { height: 0; width: 0; }
+  100% {width: 16px;height: 150px;} 
+}
+.rdg-animated-delay-0 {animation: 1.5s forwards 0s rdg-expertise-bar-animation-keyframe; width: 0px;}
+.rdg-animated-delay-1-5 {animation: 1.5s forwards 1.5s rdg-expertise-bar-animation-keyframe; width: 0px;}
+.rdg-animated-delay-3 {animation: 1.5s forwards 3s rdg-expertise-bar-animation-keyframe; width: 0px;}
+.rdg-animated-delay-4-5 {animation: 1.5s forwards 4.5s rdg-expertise-bar-animation-keyframe; width: 0px;}
+.rdg-animated-delay-6 {animation: 1.5s forwards 6s rdg-expertise-bar-animation-keyframe; width: 0px;}
+
+
+.rdg-brief-bg {background-color: #fba853;}
+.rdg-success-bg {background-color: #ae62a7;}
+.rdg-insights-bg {background-color: #35c1d1;}
+.rdg-strategy-bg {background-color: #becd30;}
+.rdg-implementation-bg {background-color: #ed193a;}
+
+.row {
+  border: #ccc 1px dashed;
+  width: 980px;
+  margin: auto;
+}
+
+/* div {
+  border: #d12a45 1px dotted; 
+} */
